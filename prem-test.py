@@ -22,5 +22,5 @@ for index, row in prem.iterrows():
 # calculating gravity at depth d, shorter version, less decimals
 testG = 9.81*(1-(prem["density(kg/m^3)"]/prem["radius(m)"]))
 
-# adding column g to prem
+# adding column g to PREM
 prem["g"] = g
