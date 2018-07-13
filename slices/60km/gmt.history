@@ -1,0 +1,11 @@
+# GMT 5 Session common arguments shelf
+BEGIN GMT 5.4.2
+B	5g5:.US-SL-2014 (dVs %) horizontal slice (depth = 60 km):wENs
+J	M
+JM	M-96.30000000000001/37.25/7.5i
+JX	X1i/1i
+R	-125.79/24.47/-66.81/50.03r
+X	a0.8
+Y	a-0.1
+L	6
+END

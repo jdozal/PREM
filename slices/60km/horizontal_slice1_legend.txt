@@ -1,0 +1,2 @@
+2.50000 -1.70000 ds.iris.edu/ds/products/emc
+2.50000 -1.50000 US-SL-2014, Schmandt \& Lin, 2014, LL(24.40,-125.60), UR(50.20,-67.00)

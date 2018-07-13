@@ -27,16 +27,13 @@ testG = 9.81*(1-(prem["radius(km)"]/R))
 # adding column g to PREM
 prem["g"] = testG
 
-# pv = mass 
-pv = prem["density(kg/m^3)"]*100*100*(6371-prem["radius(km)"])
-
 # column for Gravitational Potential Energy 
-E=prem["density(kg/m^3)"]*prem["g"]*prem["radius(m)"]
+#E=prem["density(kg/m^3)"]*prem["g"]*prem["radius(m)"]
 
 # adding E to prem
-prem["E"] = E
+#prem["E"] = E
 
-# Keeping only used columns 
+# Keeping only used columns  (optional)
 prem2 = prem.drop(['Vpv(m/s)','Vsv(m/s)','Q-kappa','Q-mu','Vph(m/s)','Vsh(m/s)','eta'], axis=1)
 
 # Creating cvs file 
